@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body {
+    background-color: rgb(253, 246, 246);
+    /* background-image: url('../backgrounds/04.jpg'); */
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar ul {
+    background-color: brown;
+    padding: 20px;
+    display: flex;
+}
+
+.navbar ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.navbar ul a:hover {
+    background-color: black;
+    transition: 0.8s;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+h1{
+    text-align: center;
+    margin-top:20%;
+}
+/*CONTAINER IMAGEM*/
+.cardImages {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 68vh;
+    justify-content: center;
+    margin: 1px;
+
+}
+
+.card {
+    margin: 2px;
+
+    height: 300px;
+    width: 30vw;
+    justify-content: space-around;
+
+    border-radius: 10px;
+}
+
+.preco {
+    font-size: 20px;
+    color: #5CA720;
+    font-weight: 400;
+
+}
+
+.descricao {
+    font-size: 14px;
+    color: black;
+    font-weight: 800;
+    overflow-wrap: break-word;
+    overflow: visible;
+    max-width: 200px;
+    text-align: left;
+
+}
+
+footer {
+    background: brown;
+    color: white;
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: space-around;
+}
+
+form>input {
+    height: 25px;
+    border: none;
+    height: 3vh;
+    margin: 0;
+}
+
+.card img {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+/*CLASSES AUXILIARES*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+}
+
+/*CLASSES AUXILIARES*/
+.mt-3 {
+    margin-top: 1vh;
+}
+
+.mt-5 {
+    margin-top: 4vh;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-evenly;
+}
+
+.ml {
+    margin-left: 5%;
+}
+
+.mr {
+    margin-right: 5%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+}
+
+.small-img {
+    width: 100px;
+}
