@@ -15,7 +15,21 @@ body {
     text-decoration: none;
     position: relative;
 }
+.home{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto auto auto;
+  
+}
 
+.home figure img{
+    width: 40%;
+    height: 40%;
+}
+.home h1{
+    font-size: 4rem;
+}
 .navbar ul {
     background-color: brown;
     padding: 20px;
@@ -44,10 +58,7 @@ body {
 .hidden {
     display: none;
 }
-h1{
-    text-align: center;
-    margin-top:20%;
-}
+
 /*CONTAINER IMAGEM*/
 .cardImages {
 
@@ -58,6 +69,7 @@ h1{
     margin: 1px;
 
 }
+
 
 .card {
     margin: 2px;
@@ -86,6 +98,7 @@ h1{
     text-align: left;
 
 }
+
 
 footer {
     background: brown;
@@ -126,6 +139,7 @@ form>input {
     width: 40vw;
 }
 
+
 /*CLASSES AUXILIARES*/
 .mt-3 {
     margin-top: 1vh;
@@ -143,6 +157,9 @@ form>input {
     justify-content: space-evenly;
 }
 
+.text-center{
+    text-align: center;
+}
 .ml {
     margin-left: 5%;
 }
